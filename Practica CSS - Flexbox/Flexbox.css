@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-class{
+    background-color: blue;
+    width: 100%;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.second-class ul li{
+    background-color: blue;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 15px;
+    list-style: none;
+    color: aliceblue;
+    width: 80px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.second-class a {
+    color: aliceblue;
+}
+
+.third-class {
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+}
+
+.fourth-class{
+    background-color: #ff7f50;
+    padding: 15px;
+    margin: 15px;
+    flex: 0 0 250px;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: #adff2f;
+    width: 100%;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 150PX;
+    margin-right: 20PX;
+    font-size: 20px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;" >
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola Beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz</td>
+                <td>28 Q</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                <td>  19 Q</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 80 Q</td>
+        </tfoot>
+        
+    </table>
+
+
+
+    <!--Lista no ordena-->
+
+    <ul>
+        <li >Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman">Sub 1</li>
+                <li style="list-style-type:lower-roman">Sub 1</li>
+                <li style="list-style-type:lower-roman">Sub 1</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre"> Nombre </label>
+        <input value="Chanchitos" type="text" id="nombre" name="nombre" placeholder="Chanchito Feliz"/>
+        <br>
+        <label for="apellido"> Apellido </label>
+        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="Chanchito triste"/>  
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese 2" name="comentario" > defecto </textarea>
+        <br>
+        <button type="button">Tipo Boton</button>
+        <button type="reset">Tipo Reset</button>
+        <button type="submit">Tipo Submit</button>
+    </form>
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi QUINTO heading</h5>
+    <h6>Chanchito Feliz</h6>
+    <p>Chanchito feliz esta muy feliz.</p>
+    <p>Chanchito triste esta muy triste.</p>
+    <hr>
+    <h2>Chanchito Felipe </h2>
+    <p>Un poco mas  de texto <Span style="color:blueviolet">mas grande para </Span> 
+        la prueba<br><br>
+        del video de HTML
+    </p>
+    <!-- Comentario 322 Ema
+    test y no va a aparecer-->
+
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+
+    <img src="img/Chess.png"  width="400" />
+
+</body>
+</html>
