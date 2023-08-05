@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado y el logo */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-right: 10px;
+}
+
+.round-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para el encabezado de la tienda */
+.store-header {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.store-header h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+/* Estilos para la lista de productos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para las tarjetas de producto */
+.product-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-card p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .product-list {
+    flex-direction: column;
+  }
+
+  .product-row {
+    flex-direction: column;
+  }
+
+  .product-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
